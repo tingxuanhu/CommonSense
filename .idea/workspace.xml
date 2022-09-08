@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSense.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java基础/StringBuffer与StringBuilder.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java基础/equals与==.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java基础/final.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java基础/接口与抽象类.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java基础/重写与重载.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS/操作系统如何工作.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS/操作系统的架构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS/进程管理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS/进程调度算法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS/进程间如何协作.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/IO.java" afterDir="false" />
+    <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/CreateFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/stream/IO流原理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSense.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSense.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/接口与抽象类.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/接口与抽象类.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/IO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +40,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Lenovo/Documents/GitHub/CommonSense",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,9 +56,106 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\GitHub\CommonSense\src\io\file" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CreateFile.create01">
+    <configuration name="CreateFile.create01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSense" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.file" />
+      <option name="MAIN_CLASS_NAME" value="io.file.CreateFile" />
+      <option name="METHOD_NAME" value="create01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateFile.createNewFile02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSense" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.file" />
+      <option name="MAIN_CLASS_NAME" value="io.file.CreateFile" />
+      <option name="METHOD_NAME" value="createNewFile02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCreate.create01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSense" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.FileCreate" />
+      <option name="METHOD_NAME" value="create01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCreate.create03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSense" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.FileCreate" />
+      <option name="METHOD_NAME" value="create03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCreate.createNewFile02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSense" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.FileCreate" />
+      <option name="METHOD_NAME" value="createNewFile02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreateFile.create01" />
+        <item itemvalue="JUnit.CreateFile.createNewFile02" />
+        <item itemvalue="JUnit.FileCreate.create03" />
+        <item itemvalue="JUnit.FileCreate.createNewFile02" />
+        <item itemvalue="JUnit.FileCreate.create01" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,8 +164,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662611554866</updated>
-      <workItem from="1662611556269" duration="1037000" />
+      <workItem from="1662611556269" duration="1741000" />
+      <workItem from="1662613321158" duration="5444000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1662612653764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662612653764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +190,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
