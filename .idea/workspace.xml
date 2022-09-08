@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file/CreateFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/stream/IO流原理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/stream/inputstream/FileInputStream_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSense.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSense.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java基础/接口与抽象类.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/接口与抽象类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/IO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +32,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Lenovo/Documents/GitHub/CommonSense",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Documents/GitHub/CommonSense&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Documents\GitHub\CommonSense\src\io\file" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreateFile.create01">
+  <component name="RunManager" selected="JUnit.FileInputStream_.readFile1">
     <configuration name="CreateFile.create01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CommonSense" />
       <extension name="coverage">
@@ -93,22 +87,6 @@
       <option name="PACKAGE_NAME" value="io.file" />
       <option name="MAIN_CLASS_NAME" value="io.file.CreateFile" />
       <option name="METHOD_NAME" value="createNewFile02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileCreate.create01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CommonSense" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io" />
-      <option name="MAIN_CLASS_NAME" value="io.FileCreate" />
-      <option name="METHOD_NAME" value="create01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,13 +124,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileInputStream_.readFile1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSense" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.stream.inputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.stream.inputstream" />
+      <option name="MAIN_CLASS_NAME" value="io.stream.inputstream.FileInputStream_" />
+      <option name="METHOD_NAME" value="readFile1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileInputStream_.readFile1" />
         <item itemvalue="JUnit.CreateFile.create01" />
         <item itemvalue="JUnit.CreateFile.createNewFile02" />
         <item itemvalue="JUnit.FileCreate.create03" />
         <item itemvalue="JUnit.FileCreate.createNewFile02" />
-        <item itemvalue="JUnit.FileCreate.create01" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +160,8 @@
       <updated>1662611554866</updated>
       <workItem from="1662611556269" duration="1741000" />
       <workItem from="1662613321158" duration="5444000" />
+      <workItem from="1662619545432" duration="157000" />
+      <workItem from="1662647367657" duration="4896000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1662612653764</created>
