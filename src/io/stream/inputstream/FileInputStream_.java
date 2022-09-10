@@ -18,6 +18,7 @@ public class FileInputStream_ {
     }
 
     // 指定字节长度来读取 而不是单字节单字节地读取
+    // 这样 比如utf-8定义的汉字 就不怕因为单字节读取而导致出现乱码
     @Test
     public void readFile2() {
         String filePath = "/Users/tingxuanhu/IdeaProjects/CommonSense/src/io/stream/IO流原理.md";
