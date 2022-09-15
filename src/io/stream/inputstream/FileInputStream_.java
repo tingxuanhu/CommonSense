@@ -13,6 +13,7 @@ import java.io.IOException;
 
 // 类名不要与导入的东西重合
 public class FileInputStream_ {
+    // 默认    public static void main(String[] args) throws Exception   没显示地用try-catch-finally则默认有个throws动作
     public static void main(String[] args) {
 
     }
@@ -33,6 +34,12 @@ public class FileInputStream_ {
         // 把fileInputStream定义在外面可以扩大作用域 这样在finally中可以释放资源
         // 否则的话在finally中接受不到作用域仅限于try中的内容
         FileInputStream fileInputStream = null;
+        // 异常捕获机制
+        // try-catch-finally  或者throws二选一
+        // throws是向上级请示 不断往上找(每一层都可以向上也可以try-catch)  最顶找到JVM  JVM则直接输出异常信息 中断程序执行
+        // try-catch-finally 机制
+        // try中可能有代码有异常 如果有就catch  // 捕获到try过程中的异常就放进e对象中被catch到
+        // 不论try代码块是否有异常 finally都始终要执行(资源文件的关闭、释放资源 等等)  <-- 如果try没异常 catch不会执行
         try {
             fileInputStream = new FileInputStream(filePath);
             // read方法从该输入流读取指定个字节的数据 如果没有输入可用 将阻止 返回-1
@@ -50,6 +57,10 @@ public class FileInputStream_ {
                 fileInputStream.close();
             } catch (IOException e) {
                 throw new RuntimeException(e);
+            } finally {
+
+
+
             }
         }
     }
