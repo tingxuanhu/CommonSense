@@ -1,4 +1,4 @@
-# ==  与  equals比较 以及 hashcode与equals的关系
+# ==  与  equals比较 以及 对象 创建 引用 本质
 - == 对比的是栈中间的值，对于基本数据类型对比的是变量值(基本类型直接在栈中分配)，而引用类型对比的是指向堆中内存对象在栈中的地址<br>
 
 Object
@@ -105,6 +105,33 @@ p.age = 10;
 ## 如何调用方法
 
 <p align="center"><img width="100%" src="../images/callMethod.png"></p>
+
+## 对象创建的流程分析
+看一个案例
+```java
+class Person {
+    int age = 90;
+    String name;
+    Person(String n, int a) {
+        name = n;
+        age = a;
+    }
+}
+
+Person p = new Person('XiaoMing', 20);
+```
+- 首先加载Person类的信息(Person.class),只会加载一次
+- 在堆中分配空间(地址)
+- 完成对象默认值的初始化
+  - age = 0;
+  - name = null;
+- 完成对象的显示初始化
+  - age = 90;
+  - name = null;
+- 构造器的初始化
+  - age = 20;
+  - name = 'XiaoMing';
+- 对象在堆中分配的地址返回给p(p是对象名或称之为对象引用)
 
 
 

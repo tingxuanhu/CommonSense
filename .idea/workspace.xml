@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/images/callMethod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/copyType.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/copyType2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/objectInCache.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/realObject.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/Exception01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/scanner/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loop/SwitchDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/MethodDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java基础/equals与==.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/equals与==及对象的有关内容.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/IO流原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/stream/IO流原理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/inputstream/FileInputStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/stream/inputstream/FileInputStream_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/equals与==及对象的有关内容.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/equals与==及对象的有关内容.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/StringLatin1.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/util/Scanner.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
