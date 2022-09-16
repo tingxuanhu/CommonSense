@@ -120,17 +120,18 @@ class Person {
 
 Person p = new Person('XiaoMing', 20);
 ```
-- 首先加载Person类的信息(Person.class),只会加载一次
+- 首先加载Person类的信息(Person.class),**只会加载一次**
 - 在堆中分配空间(地址)
-- 完成对象默认值的初始化
-  - age = 0;
-  - name = null;
-- 完成对象的显示初始化
-  - age = 90;
-  - name = null;
-- 构造器的初始化
-  - age = 20;
-  - name = 'XiaoMing';
+- 完成对象的初始化  三部曲
+  - 完成对象默认值的初始化
+    - age = 0;
+    - name = null;
+  - 完成对象的显示初始化
+    - age = 90;
+    - name = null;
+  - 构造器的初始化
+    - age = 20;
+    - name = 'XiaoMing';
 - 对象在堆中分配的地址返回给p(p是对象名或称之为对象引用)
 
 
