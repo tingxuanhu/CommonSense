@@ -66,8 +66,18 @@ public class SmallChangeSys {
                     details += "\n" + note + "\t\t-" + money + "\t" + sdf.format(date) + "\t" + balance;
                     break;
                 case "4":
-                    System.out.println("4 退出");
-                    loop = false;
+                    System.out.println("退出");
+                    // 校验是否输入的是"y"或"n" 否则不继续
+                    String choice = scanner.next();
+                    while (true) {
+                        System.out.println("确定退出否？ (y/n)");
+                        if ("y".equals(choice) || "n".equals(choice)) {
+                            break;
+                        }
+                    }
+                    // 判断是y还是n  下面这个代码不在while里判断 单独列出来写 这种风格是  一段代码实现一件事情 比较清晰
+                    // 之后如果有新加入的其他选项 可扩展性也更好
+                    loop = !choice.equals("y");
                     break;
                 default:
                     System.out.println("选择有误，请重新选择");
