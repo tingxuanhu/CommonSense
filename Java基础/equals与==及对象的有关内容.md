@@ -77,65 +77,6 @@ true
 
 <p align="center"><img width="100%" src="../images/copyType2.png"></p> 
 
-## 对象在内存中的存在形式
-<p align="center"><img width="100%" src="../images/objectInCache.png"></p> 
-
-- 一般而言，对象视同为引用数据类型 因此在栈中分配一个指向堆的地址
-- 在堆中，对象的一系列属性可以看成是数组中的一个又一个元素  分别有一个位置
-- 如果属性是基本数据类型 那么直接开辟一个地址在堆中放好
-- 如果属性是引用数据类型 如字符串 那么堆中又会有一个地址索引的指向方法区中间的常量池 在那儿开辟新的地址存放对应的数据
-
-## 谁是真正的对象？
-
-<p align="center"><img width="100%" src="../images/realObject.png"></p> 
-
-堆中和方法区里的部分是   栈中的只是对象引用或称之为对象名
-- 小明本身是一个代号 不是一个人  
-- 人是灵魂画手画的这个东西
-
-- 创建对象的流程分析
-```java
-Person p = new Person();
-p.name = "jack";
-p.age = 10;
-```
-  - 先加载Person类的信息 （属性与方法）
-  - 在堆中分配空间 进行默认的初始化  比如int定为0  string则在方法区定为null
-  - 把地址赋给p  这样p就指向了对象
-  - 把指定的初始化加上  p.name = "jack" 链接起来
-
-## 如何调用方法
-
-<p align="center"><img width="100%" src="../images/callMethod.png"></p>
-
-## 对象创建的流程分析
-看一个案例
-```java
-class Person {
-    int age = 90;
-    String name;
-    Person(String n, int a) {
-        name = n;
-        age = a;
-    }
-}
-
-Person p = new Person('XiaoMing', 20);
-```
-- 首先加载Person类的信息(Person.class),**只会加载一次**
-- 在堆中分配空间(地址)
-- 完成对象的初始化  三部曲
-  - 完成对象默认值的初始化
-    - age = 0;
-    - name = null;
-  - 完成对象的显示初始化
-    - age = 90;
-    - name = null;
-  - 构造器的初始化
-    - age = 20;
-    - name = 'XiaoMing';
-- 对象在堆中分配的地址返回给p(p是对象名或称之为对象引用)
-
 
 
 ## hashcode与equals的联系
