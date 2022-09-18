@@ -3,8 +3,9 @@
   - 对于基本数据类型对比的是变量值(基本类型直接在栈中分配)，
   - 而引用类型对比的是指向堆中内存对象在栈中的地址
 
-Object
+- equals方法是Object类中的方法 只能判断引用类型默认判断地址是否相等 子类中往往重写该方法判断内容是否相等
 ```java
+// Object类中的equals
 public boolean euqals(Object obj) {
     return (this == obj);
 }
@@ -13,7 +14,7 @@ public boolean euqals(Object obj) {
 - equals 如果不重写的话相当于object的比较 == 对比的是栈中间的值/引用类型对比地址<br>
   如果希望能够对比成员变量而不是对比地址 那么可以把equals重写
 
-改写equals来比较String类型成员变量
+改写equals来比较String类型成员变量的内容是否相等
 ```java
 public boolean equals(Object anObject) {
     if (this == anObject) {
@@ -80,9 +81,8 @@ true
 
 
 ## hashcode与equals的联系
-    - 若是两个对象相同，那么它们的hashcode一定相同（相同的对象一定经过相同的散列函数作用） --> 说明哈希函数不是随机函数 否则相同输入不具备相同输出  但是哈希函数有均匀性或称为离散性
+    - 若是两个引用指向的对象相同，那么它们的hashcode一定相同（相同的对象一定经过相同的散列函数作用） --> 说明哈希函数不是随机函数 否则相同输入不具备相同输出  但是哈希函数有均匀性或称为离散性
     - hashcode相同的对象不一定相等
-
     - 若两对象相等，对两个对象分别调用equals方法都返回true
     - hashcode方法必须要被重写（equals重写了）
         - hashcode是对堆上元素产生独特值，若没有重写hashcode()，则该class两个对象无论如何都不会像等（即便它们指向相同的数据，引用地址不同，而不重写的话是比较地址，怎么会相等呢）

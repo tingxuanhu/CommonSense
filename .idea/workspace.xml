@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Java基础/对象的创建和引用及对象的本质.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java基础/toString方法重写.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java基础/equals与==及对象的有关内容.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/equals与==及对象的有关内容.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +157,7 @@
       <workItem from="1663211484338" duration="5000" />
       <workItem from="1663212548656" duration="661000" />
       <workItem from="1663222368575" duration="10622000" />
-      <workItem from="1663386010661" duration="14551000" />
+      <workItem from="1663386010661" duration="15709000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1662612653764</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663485530043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1663485922758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663485922758</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
