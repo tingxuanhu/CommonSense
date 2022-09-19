@@ -1,4 +1,4 @@
-package smallchange;
+package projects.smallchange;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -49,16 +49,25 @@ public class SmallChangeSys {
                     System.out.println(details);
                     break;   // 不接break会顺到下一个case里去
                 case "2":
-                    System.out.println("收益入账金额");
+                    System.out.print("收益入账金额");
                     money = scanner.nextDouble();  // 要校验double
+                    // 校验收益入账的思路：不是处理合理情况 而是找出不正确的金额的条件 而后给出提示 直接break 同时代码可读性更好
+                    if (money <= 0) {
+                        System.out.println("入账金额不正确 需要大于0");
+                        break;
+                    }
                     balance += money;
                     date = new Date();  //获取当前日期
                     details += "\n收益入账\t" + money + "\t" + sdf.format(date) + "\t" + balance;
-
                     break;
                 case "3":
                     System.out.println("消费金额:");
                     money = scanner.nextDouble();  // 要校验double
+                    if (money <= 0 || money > balance) {
+                        System.out.println("您的消费金额范围有误");
+                        break;
+                    }
+
                     System.out.println("消费说明:");
                     note = scanner.next();
                     balance -= money;
@@ -68,13 +77,11 @@ public class SmallChangeSys {
                 case "4":
                     System.out.println("退出");
                     // 校验是否输入的是"y"或"n" 否则不继续
-                    String choice = scanner.next();
-                    while (true) {
+                    String choice = "";
+                    do {
                         System.out.println("确定退出否？ (y/n)");
-                        if ("y".equals(choice) || "n".equals(choice)) {
-                            break;
-                        }
-                    }
+                        choice = scanner.next();
+                    } while (!"y".equals(choice) && !"n".equals(choice));
                     // 判断是y还是n  下面这个代码不在while里判断 单独列出来写 这种风格是  一段代码实现一件事情 比较清晰
                     // 之后如果有新加入的其他选项 可扩展性也更好
                     loop = !choice.equals("y");
