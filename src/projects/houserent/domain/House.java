@@ -14,6 +14,15 @@ public class House {
     private int rent;
     private String state;
 
+    public House(int id, String name, String phone, String address, int rent, String state) {
+        this.id = id;
+        this.name = name;
+        this.phone = phone;
+        this.address = address;
+        this.rent = rent;
+        this.state = state;
+    }
+
     public int getId() {
         return id;
     }
@@ -63,16 +72,15 @@ public class House {
     }
 
     // 为了方便输出对象信息 重写toString
-
     @Override
     public String toString() {
-        return "House{" +
-                id +
-                ", name='" + name + '\'' +
-                ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                ", rent=" + rent +
-                ", state='" + state + '\'' +
-                '}';
+        return id +
+                "\t\t" + name +
+                "\t\t" + phone +
+                "\t\t" + address +
+                "\t\t" + rent +
+                "\t\t" + state;
     }
+
+
 }

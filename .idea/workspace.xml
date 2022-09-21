@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Java基础/static静态相关.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/houserent/HouseRentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/houserent/domain/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/houserent/utils/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/houserent/view/HouseView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/smallchange/SmallChangeSysApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/smallchange/SmallChangeSysOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/houserent/service/HouseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java基础/StringBuffer与StringBuilder.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/StringBuffer与StringBuilder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smallchange/SmallChangeSys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/smallchange/SmallChangeSys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/houserent/HouseRentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/houserent/HouseRentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/houserent/domain/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/houserent/domain/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/houserent/view/HouseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/houserent/view/HouseView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,7 @@
       <recent name="C:\Users\Lenovo\Documents\GitHub\CommonSense\src\io\file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmallChangeSysApp">
+  <component name="RunManager" selected="Application.HouseRentApp">
     <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.AccountTest" />
       <module name="CommonSense" />
@@ -90,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.Encapsulation" />
+    <configuration name="HouseRentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projects.houserent.HouseRentApp" />
       <module name="CommonSense" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.*" />
+          <option name="PATTERN" value="projects.houserent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HouseRentApp" />
         <item itemvalue="Application.SmallChangeSysApp" />
         <item itemvalue="Application.SmallChangeSys" />
         <item itemvalue="Application.Input" />
         <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.Encapsulation" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663515296282</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1663595640553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663595640553</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
