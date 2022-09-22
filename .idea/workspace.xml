@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/设计模式/单例模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式/单例模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/AbstractExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/CommonEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/模板模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/代码块.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/代码块.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/对象的创建和引用及对象的本质.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/对象的创建和引用及对象的本质.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/接口与抽象类.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/接口与抽象类.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/houserent/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/houserent/service/HouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/houserent/view/HouseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/houserent/view/HouseView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +78,9 @@
       <recent name="C:\Users\Lenovo\Documents\GitHub\CommonSense\src\io\file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HouseRentApp">
-    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.AccountTest" />
+  <component name="RunManager" selected="Application.AbstractExercise">
+    <configuration name="AbstractExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.AbstractExercise" />
       <module name="CommonSense" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractExercise" />
         <item itemvalue="Application.HouseRentApp" />
         <item itemvalue="Application.SmallChangeSysApp" />
         <item itemvalue="Application.SmallChangeSys" />
         <item itemvalue="Application.Input" />
-        <item itemvalue="Application.AccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663744693200</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1663809248271</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663809248271</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

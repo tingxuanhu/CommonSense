@@ -82,7 +82,7 @@ public class HouseView {
         String state = Utility.readString(3);
 
         House house = new House(0, name, phone, address, rent, state);
-        if ()
+//        if ()
     }
 
 }

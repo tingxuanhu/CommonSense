@@ -20,9 +20,9 @@ public class HouseService {
      * add  添加新的对象
      * @return boolean
      */
-    public boolean add(House newHouse) {
-
-    }
+//    public boolean add(House newHouse) {
+//
+//    }
 
     /**
      * @return  houses
