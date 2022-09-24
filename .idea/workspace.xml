@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/oop/AbstractExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/CommonEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/设计模式/模板模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java基础/内部类.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java基础/代码块.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/代码块.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java基础/对象的创建和引用及对象的本质.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/对象的创建和引用及对象的本质.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java基础/接口与抽象类.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/接口与抽象类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/houserent/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/houserent/service/HouseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/houserent/view/HouseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/houserent/view/HouseView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/继承.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/继承.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663809248271</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1663826730609</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663826730609</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
