@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bcd588-f4c0-4ab7-b765-7dbceb441c77" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Java基础/内部类.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/InnerClassExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java基础/代码块.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/代码块.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java基础/接口与抽象类.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/接口与抽象类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java基础/继承.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/继承.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/内部类.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/内部类.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663826730609</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <created>1664027048096</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664027048096</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
